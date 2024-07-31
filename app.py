@@ -185,7 +185,7 @@ with gr.Blocks(theme=theme) as demo:
         submit = gr.Button("Submit", variant="primary")
   
       with gr.Column(scale=2):  
-        with gr.Accordion("Show intermediate table"):
+        with gr.Accordion("output table"):
           output_table = gr.Textbox(lines=8, label="output box",)
         output_text = gr.Textbox(lines=8, label="Output", visible=False)
 
